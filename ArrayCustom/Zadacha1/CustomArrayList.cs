@@ -48,7 +48,7 @@ namespace Zadacha1
         {
             if (index < 0 || index > count)
             {
-                throw new IndexOutOfRangeException("Invalid index: " + index);
+                throw new IndexOutOfRangeException($"Invalid index: {index}");
             }
 
             if (count == arr.Length)
@@ -109,7 +109,7 @@ namespace Zadacha1
             {
                 if (index < 0 || index >= count)
                 {
-                    throw new IndexOutOfRangeException("Invalid index: " + index);
+                    throw new IndexOutOfRangeException($"Invalid index: {index}");
                 }
                 return arr[index];
             }
@@ -117,7 +117,7 @@ namespace Zadacha1
             {
                 if (index < 0 || index >= count)
                 {
-                    throw new IndexOutOfRangeException("Invalid index: " + index);
+                    throw new IndexOutOfRangeException($"Invalid index: {index}");
                 }
                 arr[index] = value;
             }
@@ -127,7 +127,7 @@ namespace Zadacha1
         {
             if (index < 0 || index >= count)
             {
-                throw new IndexOutOfRangeException("Invalid index: " + index);
+                throw new IndexOutOfRangeException($"Invalid index: {index}");
             }
 
             object removedItem = arr[index];

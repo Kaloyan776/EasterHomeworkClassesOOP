@@ -80,7 +80,7 @@ namespace Zadacha1
         {
             if (index < 0 || index >= count)
             {
-                throw new IndexOutOfRangeException("Invalid index: " + index);
+                throw new IndexOutOfRangeException($"Invalid index: {index}");
             }
 
             Node currentNode = head;
@@ -118,7 +118,7 @@ namespace Zadacha1
             {
                 if (index < 0 || index >= count)
                 {
-                    throw new IndexOutOfRangeException("Invalid index: " + index);
+                    throw new IndexOutOfRangeException($"Invalid index: {index}");
                 }
 
                 Node currentNode = head;
@@ -132,7 +132,7 @@ namespace Zadacha1
             {
                 if (index < 0 || index >= count)
                 {
-                    throw new IndexOutOfRangeException("Invalid index: " + index);
+                    throw new IndexOutOfRangeException($"Invalid index: {index}");
                 }
 
                 Node currentNode = head;
